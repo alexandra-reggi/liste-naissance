@@ -1,0 +1,116 @@
+#bodypge1{
+    background-image:url("fondpageliste.jpg");
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    margin:0;   
+}
+
+
+#hdrpage1{
+    background-color: rgb(247, 214, 234);
+    border: solid 1px rgb(68, 60, 45);
+    flex-direction: row;
+    justify-content: center;
+    height: 65px; 
+}
+
+
+nav{
+    margin-top: -10px;
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+li a{
+    text-shadow: 5px -1px 1px white;
+    font-size: 35px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+
+#hpge1{
+    text-align: center;
+    margin-top: 35px;
+    font-family: cursive;
+    font-style: oblique;
+    color: darkgray;
+    font-size: -webkit-xxx-large;
+}
+
+
+table{
+    text-align: center;
+    border: collapse;
+    background-color: white;
+    border: solid 1px black;
+    margin-left: 180px;
+    margin-top: -35px;
+    border-width: 2px;
+    border-style: solid;
+    width: 77%;
+}
+
+
+td { 
+    border-width: 1px;
+    border-style: solid;
+    background-color: aliceblue;
+    }
+
+
+img{
+    padding-bottom: 9px;
+    margin-top: -11px;
+    width: 85px;
+}
+
+
+#trbleu{
+    background-color: rgba(158, 223, 245, 0.671);  
+}
+
+
+.bleu{
+    background-color: rgba(158, 223, 245, 0.671); ;
+}
+
+
+#trjaune{
+    background-color: rgba(253, 255, 111, 0.685);
+}
+
+
+.jaune{
+    background-color: rgba(253, 255, 111, 0.685);
+}
+
+
+#trrose{
+    background-color: rgba(247, 214, 234, 0.733);
+}
+
+
+.rose{
+    background-color:  rgba(247, 214, 234, 0.733);
+}
+
+
+#trvert{
+    background-color: rgba(124, 226, 175, 0.685);
+}
+
+
+.vert{
+    background-color: rgba(124, 226, 175, 0.685);
+}
