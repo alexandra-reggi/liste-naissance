@@ -10,9 +10,13 @@
 #hdrpage1{
     background-color: rgb(247, 214, 234);
     border: solid 1px rgb(68, 60, 45);
-    flex-direction: row;
-    justify-content: center;
     height: 65px; 
+}
+
+
+.imglicorne{
+    width: 62px;
+    margin-top: -6px;
 }
 
 
@@ -27,7 +31,7 @@ ul{
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 
@@ -40,12 +44,27 @@ li a{
 
 
 #hpge1{
+    text-shadow: 2px 1px 1px rgb(68, 60, 45);
     text-align: center;
     margin-top: 35px;
     font-family: cursive;
     font-style: oblique;
     color: darkgray;
     font-size: -webkit-xxx-large;
+}
+
+
+#imgh1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.imgbb{
+    width: 86px;
+    height: 101px;
+    margin: 3px;
 }
 
 
@@ -113,4 +132,25 @@ img{
 
 .vert{
     background-color: rgba(124, 226, 175, 0.685);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(247, 214, 234);
+    border: solid 1px rgb(68, 60, 45);
+    flex-direction: row;
+    justify-content: center;
+    height: 65px; 
+    text-align: center;
+    list-style: none;
+    margin-top: 35px;
+}
+
+
+.imglicornefoot{
+    width: 70px;
+    margin-top: 3px;
 }
