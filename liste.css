@@ -85,7 +85,7 @@ td {
     border-width: 1px;
     border-style: solid;
     background-color: aliceblue;
-    }
+}
 
 
 img{
@@ -95,7 +95,14 @@ img{
 }
 
 
+h2{
+    margin-top: 20px;
+}
+
+
 #trbleu{
+    margin-top: 20px;
+    font-family: sans-serif;
     background-color: rgba(158, 223, 245, 0.671);  
 }
 
@@ -106,6 +113,8 @@ img{
 
 
 #trjaune{
+    margin-top: 20px;
+    font-family: sans-serif;
     background-color: rgba(253, 255, 111, 0.685);
 }
 
@@ -116,6 +125,8 @@ img{
 
 
 #trrose{
+    margin-top: 20px;
+    font-family: sans-serif;
     background-color: rgba(247, 214, 234, 0.733);
 }
 
@@ -126,6 +137,8 @@ img{
 
 
 #trvert{
+    margin-top: 20px;
+    font-family: sans-serif;
     background-color: rgba(124, 226, 175, 0.685);
 }
 
@@ -153,4 +166,66 @@ footer{
 .imglicornefoot{
     width: 70px;
     margin-top: 3px;
+}
+
+/*CSS FORMULAIRE*/
+
+#bodypge2{
+    background-image:url("fondpage2.jpg");
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    margin:0;   
+}
+
+
+.imgbbjaune{
+    width: 65px;
+    margin-top: -6px;
+}
+
+
+.imgbibi{
+    height: 106px;
+    margin-top: 0px;
+    width: 118px;
+}
+
+
+.cigogne{
+    padding-bottom: 9px;
+    margin-top: 0px;
+    width: 94px;
+    height: 65px;
+}
+
+
+.impblanc{
+    background-color: white;
+    font-family: cursive;
+    background-color: white;
+}
+
+
+.croix{
+    width: 105px;
+    margin-top: 9px;
+}
+
+
+#boutonvalid{
+    background-color: white;
+    width: 270px;
+    height: 70px;
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 55%;
+}
+
+
+#artvalid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 47px;
 }
